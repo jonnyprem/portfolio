@@ -2,7 +2,7 @@ export const educationData = [
     {
         id: 1,
         institution: 'Royal University of Phnom Penh',
-        course: 'Bachelor Degree - Information Technology',
+        course: "Bachelor's Degree - Information Technology",
         startYear: '2017',
         endYear: '2021'
     },

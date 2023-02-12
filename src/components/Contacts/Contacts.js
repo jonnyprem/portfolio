@@ -5,17 +5,17 @@ import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaTwitter,
+    // FaTwitter,
     FaLinkedinIn,
     FaGithub,
     FaYoutube,
-    FaBloggerB,
-    FaRedditAlien,
-    FaStackOverflow,
-    FaCodepen,
-    FaInstagram,
-    FaGitlab,
-    FaMediumM,
+    // FaBloggerB,
+    // FaRedditAlien,
+    // FaStackOverflow,
+    // FaCodepen,
+    // FaInstagram,
+    // FaGitlab,
+    // FaMediumM,
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
@@ -176,7 +176,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Jonny Prom'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +192,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='jonnyprom@gmail.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -313,7 +313,7 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
+                            {/* {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
                                     target='_blank'
@@ -322,7 +322,7 @@ function Contacts() {
                                 >
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -330,7 +330,7 @@ function Contacts() {
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaGithub aria-label='GitHub' />
+                                    <FaGithub aria-label='https://github.com/jonnyprem' />
                                 </a>
                             )}
                             {socialsData.linkedIn && (
@@ -340,10 +340,10 @@ function Contacts() {
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaLinkedinIn aria-label='LinkedIn' />
+                                    <FaLinkedinIn aria-label='https://www.linkedin.com/in/leaphengprem/' />
                                 </a>
                             )}
-                            {socialsData.instagram && (
+                            {/* {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
                                     target='_blank'
@@ -352,8 +352,8 @@ function Contacts() {
                                 >
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
-                            )}
-                            {socialsData.medium && (
+                            )} */}
+                            {/* {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
                                     target='_blank'
@@ -362,8 +362,8 @@ function Contacts() {
                                 >
                                     <FaMediumM aria-label='Medium' />
                                 </a>
-                            )}
-                            {socialsData.blogger && (
+                            )} */}
+                            {/* {socialsData.blogger && (
                                 <a
                                     href={socialsData.blogger}
                                     target='_blank'
@@ -372,7 +372,7 @@ function Contacts() {
                                 >
                                     <FaBloggerB aria-label='Blogger' />
                                 </a>
-                            )}
+                            )} */}
                             {socialsData.youtube && (
                                 <a
                                     href={socialsData.youtube}
@@ -380,10 +380,10 @@ function Contacts() {
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaYoutube aria-label='YouTube' />
+                                    <FaYoutube aria-label='https://www.youtube.com/@jonnyprem6109/' />
                                 </a>
                             )}
-                            {socialsData.reddit && (
+                            {/* {socialsData.reddit && (
                                 <a
                                     href={socialsData.reddit}
                                     target='_blank'
@@ -392,8 +392,8 @@ function Contacts() {
                                 >
                                     <FaRedditAlien aria-label='Reddit' />
                                 </a>
-                            )}
-                            {socialsData.stackOverflow && (
+                            )} */}
+                            {/* {socialsData.stackOverflow && (
                                 <a
                                     href={socialsData.stackOverflow}
                                     target='_blank'
@@ -402,8 +402,8 @@ function Contacts() {
                                 >
                                     <FaStackOverflow aria-label='Stack Overflow' />
                                 </a>
-                            )}
-                            {socialsData.codepen && (
+                            )} */}
+                            {/* {socialsData.codepen && (
                                 <a
                                     href={socialsData.codepen}
                                     target='_blank'
@@ -412,8 +412,8 @@ function Contacts() {
                                 >
                                     <FaCodepen aria-label='CodePen' />
                                 </a>
-                            )}
-                            {socialsData.gitlab && (
+                            )} */}
+                            {/* {socialsData.gitlab && (
                                 <a
                                     href={socialsData.gitlab}
                                     target='_blank'
@@ -422,7 +422,7 @@ function Contacts() {
                                 >
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
-                            )}
+                            )} */}
                         </div>
                     </div>
                 </div>
